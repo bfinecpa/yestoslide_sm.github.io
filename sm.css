@@ -1,7 +1,16 @@
+
+@font-face {
+    font-family: "NanumSquareRound";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff")
+        format("woff");
+    font-weight: normal;
+    font-style: normal;
+    }
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "NanumSquareRound";
 }
 html, body
 {
@@ -10,6 +19,7 @@ html, body
 }
 .logo_box
 {
+    
     display: flex;
     margin-top: 83pt;
     height: 78pt;
@@ -73,7 +83,7 @@ html, body
     position: relative;
     font-size: 15pt;
     font-weight: bold;
-    top: -2px;
+    
     width: 43pt;
     height: 18pt;
 }
@@ -93,7 +103,7 @@ html, body
 {
     position: relative;
     left: 5px;
-    top: -2px;
+    
     font-size: 14pt;
     width: 100%;
     height: 16pt;
@@ -111,7 +121,7 @@ html, body
 .name_text
 {
     position: relative;
-    top: -2px;
+    
     width: 33pt;
     height: 18pt;
     font-weight: bold;
@@ -166,7 +176,7 @@ html, body
 .cd_gamil_text
 {
     position: relative;
-    top: -3px;
+    
     font-size: 16pt;
     font-weight: bold;
     
@@ -183,7 +193,7 @@ html, body
     border-radius: 5px;
     width: 201pt;
     height: 100%;
-    font-size: 13pt;
+    font-size: 14pt;
     padding-left: 5px;
     color: #707070;
 }
@@ -193,7 +203,7 @@ html, body
     color: #707070;;
     width: 100%;
     height: 16pt;
-    font-size: 13pt;
+    font-size: 1pt;
     border: none;
 }
 .cd_img_box
