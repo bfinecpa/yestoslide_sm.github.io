@@ -1,0 +1,218 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.logo_box
+{
+    display: flex;
+    margin-top: 83pt;
+    height: 78pt;
+    
+    
+}
+
+.logo_img
+{
+    background: url(yes_img/yestoslide_all_logo.png);
+    position: relative;
+    left: 49%;
+    top:-10px;
+    height: 78pt;
+    transform: translateX(-50%);
+    width: 194pt;
+    cursor: pointer;
+    
+}
+.version
+{
+    position: relative;
+    left: 194pt;
+    top: 63.5pt;
+    
+    height: 14pt;
+    width: 96pt;
+}
+.content
+{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+    display: flex;
+    flex-direction: column;
+    height: 400pt;
+    width: 302pt;
+}
+.participant
+{
+    font-size: 18pt;
+    margin-top: 10pt;
+    color: #ff8836;
+    font-weight: bold;
+    height: 20pt;
+    width: 164pt;
+}
+.par_gamil_box
+{
+    font-size: 14pt;
+    display: flex;
+    align-items: center;
+    margin-top: 15pt;
+    
+    height: 36.92pt;
+    width: 100%;
+}
+.par_gamil_text
+{
+    position: relative;
+    font-size: 15pt;
+    font-weight: bold;
+    top: -2px;
+    width: 43pt;
+    height: 18pt;
+}
+
+.par_gmail_textbox
+{
+    display: flex;
+    align-items: center;
+    
+    margin-left: 8pt;
+    border: 1pt solid #707070;
+    border-radius: 5px;
+    width: 251pt;
+    height: 100%;
+}
+.gmail_content
+{
+    position: relative;
+    left: 5px;
+    top: -2px;
+    font-size: 14pt;
+    width: 100%;
+    height: 16pt;
+}
+.name_box
+{
+    display: flex;
+    align-items: center;
+    margin-top: 10.08pt;
+    
+    height: 36.92pt;
+    width: 100%;
+}
+
+.name_text
+{
+    position: relative;
+    top: -2px;
+    width: 33pt;
+    height: 18pt;
+    font-weight: bold;
+    font-size: 15pt;
+}
+.name_textbox
+{
+    display: flex;
+    align-items: center;
+    margin-left: 17pt;
+    border: 1pt solid #707070;
+    border-radius: 5px;
+    width: 251pt;
+    height: 100%;
+}
+.name_content
+{
+    position: relative;
+    margin-left: 5px;
+    
+    font-size: 14pt;
+    width: 100%;
+    height: 16pt;
+    border:none;
+    color: #707070;
+}
+
+.coordi
+{
+    margin-top: 43.93pt;
+
+    width: 225pt;
+    height: 20pt;
+    font-size: 18pt;
+    color: #ff8836;
+    font-weight: bold;
+}
+
+.cd_gamil_box
+{
+    display: flex;
+    align-items: center;
+    margin-top: 15pt;
+    
+    height: 36.92pt;
+    width: 100%;
+}
+.cd_gamil_text
+{
+    position: relative;
+    top: -3px;
+    font-size: 16pt;
+    font-weight: bold;
+    
+    width: 43pt;
+    height: 18pt;
+}
+
+.cd_gmail_textbox
+{
+    display: flex;
+    align-items: center;
+    margin-left: 8pt;
+    border: 1pt solid #707070;
+    border-radius: 5px;
+    width: 201pt;
+    height: 100%;
+}
+.cd_gmail_content
+{
+    margin-left: 5px;
+    color: #707070;;
+    width: 100%;
+    height: 16pt;
+    font-size: 13pt;
+    border: none;
+}
+.cd_img_box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #707070;
+    border-radius: 5px;
+    width: 43.37pt;
+    height: 100%;
+    margin-left: 7.63pt;
+    cursor: pointer;
+}
+.cd_img_box img
+{
+    width: 20.25pt;
+    height: 29.25pt;
+}
+.enter
+{
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 38.93pt;
+    
+    width: 302pt;
+    height: 41pt;
+    line-height: 41pt;
+    font-size: 18pt;
+    color: white;
+    background-color: #ff8836;
+    border-radius: 5px;
+    cursor: pointer;
+}
