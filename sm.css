@@ -121,6 +121,10 @@
     border-radius: 5px;
     width: 251pt;
     height: 100%;
+    font-size: 14pt;
+    padding-left: 5px;
+    color: #707070;
+    
 }
 .name_content
 {
@@ -174,6 +178,9 @@
     border-radius: 5px;
     width: 201pt;
     height: 100%;
+    font-size: 13pt;
+    padding-left: 5px;
+    color: #707070;
 }
 .cd_gmail_content
 {
